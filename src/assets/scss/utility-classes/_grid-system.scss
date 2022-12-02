@@ -1,0 +1,165 @@
+$base-size: 1rem;
+
+$sizes: (
+  "1": $base-size * 0.25,
+  "2": $base-size * 0.5,
+  "3": $base-size * 0.75,
+  "4": $base-size * 1,
+  "5": $base-size * 1.5,
+  "6": $base-size * 2,
+  "7": $base-size * 2.5,
+  "8": $base-size * 3,
+);
+
+//new style
+
+
+
+// .display {
+//   &-block {
+//     display: block;
+//   }
+
+//   &-inline {
+//     display: inline;
+//   }
+
+//   &-flex {
+//     display: flex;
+//   }
+
+//   &-grid {
+//     display: grid;
+//   }
+
+//   &-inline-block {
+//     display: inline-block;
+//   }
+// }
+
+/* flex */
+.flex {
+    &-row {
+      flex-direction: row;
+    }
+
+    &-row-reverse {
+      flex-direction: row-reverse;
+    }
+
+    &-column {
+      flex-direction: column;
+    }
+
+    &-column-reverse {
+      flex-direction: column-reverse;
+    }
+}
+
+// .font {
+//   &-weight {
+//     &-100 {
+//       font-weight: 100;
+//     }
+
+//     &-200 {
+//       font-weight: 200;
+//     }
+
+//     &-300 {
+//       font-weight: 300;
+//     }
+
+//     &-400,
+//     &-normal {
+//       font-weight: 400;
+//     }
+
+//     &-500 {
+//       font-weight: 500;
+//     }
+
+//     &-600,
+//     &-bold {
+//       font-weight: 600;
+//     }
+
+//     &-700,
+//     &-bolder {
+//       font-weight: 700;
+//     }
+
+//     &-800 {
+//       font-weight: 800;
+//     }
+
+//     &-900 {
+//       font-weight: 900;
+//     }
+//   }
+// }
+
+/* justift directions */
+
+.justify {
+  &-start {
+    justify-content: flex-start;
+  }
+
+  &-end {
+    justify-content: flex-end;
+  }
+
+  &-center {
+    justify-content: center;
+  }
+
+  &-between {
+    justify-content: space-between;
+  }
+
+  &-around {
+    justify-content: space-around;
+  }
+
+  &-stretch {
+    justify-content: stretch;
+  }
+}
+
+/* positions */
+.position {
+  &-relative {
+    position: relative;
+  }
+
+  &-absolute {
+    position: absolute;
+  }
+
+  &-sticky {
+    position: fixed;
+    position: sticky;
+  }
+
+  &-fixed {
+    position: fixed;
+  }
+}
+
+/* text-alignment */
+.text {
+  &-align {
+    &-left {
+      text-align: left;
+    }
+
+    &-right {
+      text-align: right;
+    }
+
+    &-center {
+      text-align: center;
+    }
+  }
+}

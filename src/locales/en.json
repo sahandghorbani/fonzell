@@ -1,0 +1,18 @@
+{
+  "hello": "hello ",
+  "goodbye": "bye",
+  "email": "email",
+  "car": "car",
+  "person": "person",
+  "click me" : "click me ",
+  "Search" : "Search",
+  "user profile" :"usere profile" , 
+  "edit profile" : "edit profile" ,
+  "user information" : "user information" ,
+  "my account" : "my account",
+  "profile picture" : "profile picture",
+  "name" : "name",
+  "familyname" : "familyname", 
+  "gender":"gender",
+  "birthday" : "birthday"
+}

@@ -1,0 +1,52 @@
+
+/* dark theme */
+body {
+  transition: 1s ;
+  &.dark-layout {
+      background-color: #283046 !important;
+      & h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6,
+      p,
+      label {
+        color: $primary !important;
+      }
+    
+      //inputs
+      .input,
+      .otp-input {
+        background: $input-dark-theme ;
+        color: $primary !important;
+        &:focus {
+          outline: 1px solid #fff;
+        }
+      }
+      // search products
+      .product-detail-card{
+        background: $input-dark-theme ;
+        color: $primary !important;
+      }
+      .skeleton__isloading .skeleton__content {
+        background: $input-dark-theme
+      }
+      .skeleton__isloading .skeleton__image {
+        background: $secondary;
+        
+      }
+      //profile view
+      .form-control {
+        background: $input-dark-theme ;
+      }
+
+      .card-profile , .card-body , .card-header {
+        background-color: #515c8b;
+      }
+      //svg 
+      svg {
+        color: $primary;
+      }
+    }
+  }

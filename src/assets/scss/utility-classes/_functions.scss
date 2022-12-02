@@ -1,0 +1,8 @@
+@function weight($weight-name){
+    @return map-get($font-weights , $weight-name)
+};
+@function light-comp($color) {
+    $complement: complement($color);
+    $light-complement: lighten($complement, 30%);
+    @return $light-complement;
+  }

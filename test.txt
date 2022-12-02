@@ -1,0 +1,37 @@
+$colorsLight: (
+  'background': #f2f3f5,
+  'primary': #f2f3f5,
+  'primaryLight': #03a9f4,
+  'primaryDark': '',
+  'secondary': '',
+  'secondaryLight': '',
+  'secondaryDark': '',
+  'whiteText': '',
+  'blackText': #545454,
+  'mutedText': gray,
+  'scrollbarBackground': #f1f1f1,
+  'scrollbarColor': #ccc,
+  'sidebarBackground': white,
+  'cardBackground': white,
+);
+
+$colorsDark: (
+  'background': #232A3B,
+  'primary': #17172a,
+  'primaryLight': #03a9f4,
+  'primaryDark': '',
+  'secondary': '',
+  'secondaryLight': '',
+  'secondaryDark': '',
+  'whiteText': '',
+  'blackText': white,
+  'mutedText': black,
+  'scrollbarBackground': #f1f1f1,
+  'scrollbarColor': #ccc,
+  'sidebarBackground': #1a1a36,
+  'cardBackground': #0E2338,
+);
+
+@include dark('.card') {
+  background: map-get($colorsDark, 'cardBackground');
+}

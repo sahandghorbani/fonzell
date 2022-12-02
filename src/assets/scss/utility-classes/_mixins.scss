@@ -1,0 +1,14 @@
+@mixin flexCenter($direction:row) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: $direction;
+  gap: 1rem;
+}
+
+@mixin theme($isLight: true) {
+  @if $isLight {
+    background-color:lighten($primary-color, 100%);
+    color: darken(white, 100%);
+  }
+}
